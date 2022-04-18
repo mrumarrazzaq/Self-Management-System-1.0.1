@@ -1,0 +1,92 @@
+name: self_management_systam
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  #Form Validator
+  form_field_validator: ^1.1.0
+  #Fire Base
+  firebase_core: ^1.12.0
+  firebase_auth: ^3.3.7
+  cloud_firestore: ^3.1.8
+  #Flutter Speed Dial
+  flutter_speed_dial: ^5.0.0+1
+  #color picker
+  flutter_colorpicker: ^1.0.3
+  flutter_slidable: ^1.2.0
+  bottom_navy_bar: ^6.0.0
+  #show local notification
+  flutter_local_notifications: ^9.4.0
+  #listen for notification
+  rxdart: ^0.27.1
+  rflutter_alert:
+
+  table_calendar: ^3.0.4
+  get_storage:
+  get:
+  intl:
+  date_picker_timeline:
+  flutter_date_picker_timeline: ^0.3.3
+  flutter_native_timezone:
+  sqflite:
+  flutter_staggered_animations:
+
+  google_fonts:
+  lottie:
+
+  #for internet connectivity
+  internet_connection_checker: ^0.0.1+3
+  overlay_support: ^1.2.1
+  connectivity_plus: ^2.2.1
+#  flutter_secure_storage: ^5.0.2
+  animated_splash_screen: ^1.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+  #splash Screen
+  flutter_native_splash:
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: asset/logo.png
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - icons/
+    - defaultHabits/
+    - animations/
+
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: asset/SourceSansPro-ExtraLight.ttf
+#        - asset: fonts/Schyler-Italic.ttf
+#          style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700

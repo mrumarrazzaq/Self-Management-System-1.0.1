@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772053014840",
+    "project_id": "second-brain-33f81",
+    "storage_bucket": "second-brain-33f81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772053014840:android:ff386c7fb8603dfe3f89cd",
+        "android_client_info": {
+          "package_name": "flutterapp.com.example.self_management_systam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772053014840-k0pukku32ei887b2mecvdub7eb2ujer7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpX5-KQYcz5_YopXRpiyceNNU00jxEw94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772053014840-k0pukku32ei887b2mecvdub7eb2ujer7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
